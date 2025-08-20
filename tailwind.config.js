@@ -1,6 +1,10 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
-  theme: { extend: {} },
-  plugins: [],
+import React from "react";
+import Player from "./components/Player";
+
+export default function App() {
+  return (
+    <div>
+      <Player />
+    </div>
+  );
 }
